@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Porfolio Antonio Torrejón</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- MENU HEADER -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">ATG</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCIÓN INICIO -->
+     <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-imagen">
+                <img src="/img/foto mia2.png" alt="imagen AT">
+            </div>
+            <h1>ANTONIO TORREJON</h1>
+            <h2>Full Stack Developer - Desarrollador web</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+     </section>
+
+     <!-- SECCIÓN SOBRE MÍ -->
+      <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre mí</h2>
+            <p><span>Hola, soy Antonio Torrejón.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quia, culpa itaque qui perferendis fugiat sunt! Minus cupiditate cum, voluptate porro laborum voluptas placeat necessitatibus dolor, voluptates et eum autem.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Fecha nacimiento</strong>
+                            28-01-1981
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            675652556
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            antonioTorrejon81@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Esquivias, Toledo. España
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LITERATURA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-volleyball"></i>
+                            <span>DEPORTES</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-code"></i>
+                            <span>PROGRAMACIÓN</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJES</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-film"></i>
+                            <span>CINE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="/img/CurriculumLidiaHernandez.pdf" download="CV">
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                </a>
+                <span class="overlay"></span>
+            </button>
+        </div>
+      </section>
+
+      <!-- SECCION SKILLS -->
+       <section id="skills" class="skills">
+            <div class="contenido-seccion">
+                <h2>Skills</h2>
+                <div class="fila">
+                    <div class="col">
+                        <h3>Technical Skills</h3>
+                        <div class="skill">
+                            <span>JavaScript</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>HTML & CSS</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>React</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>60%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Angular</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>40%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>PHP</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>SQL</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>65%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h3>Professional Skills</h3>
+                        <div class="skill">
+                            <span>Trabajo en equipo</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Creatividad</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Dedicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Proactividad</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Comunicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>60%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Liderazgo</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>78%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </section>
+
+       <!-- SECCION CURRICULUM -->
+       <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Psicología</h4>
+                        <span class="casa">Universidad Autónoma Madrid</span>
+                        <span class="fecha">2002 - 2009</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt blanditiis excepturi distinctio quam ut ducimus alias necessitatibus optio, repudiandae molestias, nulla aspernatur, possimus quo. Dolore minus dicta eveniet ipsum nulla.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Máster en Psicología Clínica Aplicada</h4>
+                        <span class="casa">Instituto Superior Psicología Alboran</span>
+                        <span class="fecha">2010 - 2011</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt blanditiis excepturi distinctio quam ut ducimus alias necessitatibus optio, repudiandae molestias, nulla aspernatur, possimus quo. Dolore minus dicta eveniet ipsum nulla.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Grado Sup Desarrollo de Aplicaciones Web</h4>
+                        <span class="casa">ILERNA</span>
+                        <span class="fecha">2020 - 2024</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt blanditiis excepturi distinctio quam ut ducimus alias necessitatibus optio, repudiandae molestias, nulla aspernatur, possimus quo. Dolore minus dicta eveniet ipsum nulla.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia laboral</h3>
+                    <div class="item der">
+                        <h4>Psicologo</h4>
+                        <span class="casa">Freelance</span>
+                        <span class="fecha">2012 - 2014</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt blanditiis excepturi distinctio quam ut ducimus alias necessitatibus optio, repudiandae molestias, nulla aspernatur, possimus quo. Dolore minus dicta eveniet ipsum nulla.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Director comercio</h4>
+                        <span class="casa">Unide</span>
+                        <span class="fecha">2014 - 2016</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt blanditiis excepturi distinctio quam ut ducimus alias necessitatibus optio, repudiandae molestias, nulla aspernatur, possimus quo. Dolore minus dicta eveniet ipsum nulla.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Auxiliar administrativo</h4>
+                        <span class="casa">Aserpam</span>
+                        <span class="fecha">2016 - Act.</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt blanditiis excepturi distinctio quam ut ducimus alias necessitatibus optio, repudiandae molestias, nulla aspernatur, possimus quo. Dolore minus dicta eveniet ipsum nulla.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+
+      <!-- SECCION PORTFOLIO -->
+       <section id="portfolio" class="portfolio">
+            <div class="contenido-seccion">
+                <h2>Portfolio</h2>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <a href="https://festrockandedm.netlify.app/" target="_blank">
+                            <img src="/img/p1 festival.png" alt="proyecto festival">
+                            <div class="overlay">
+                                <h3>Festival de música</h3>
+                                <p>HTML + CSS</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="https://blogcafeteroproject.netlify.app/" target="_blank">
+                            <img src="/img/p2 cafe.png" alt="proyecto cafe">
+                            <div class="overlay">
+                                <h3>Blog café</h3>
+                                <p>HTML + CSS + JS</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="https://cotizadorcriptoreact.netlify.app/" target="_blank">
+                            <img src="/img/p3 criptomonedas.png" alt="proyecto criptomonedas">
+                            <div class="overlay">
+                                <h3>Cotizador criptomonedas</h3>
+                                <p>React + TS</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="https://pacientesclinicaveterinariazustand.netlify.app/" target="_blank">
+                            <img src="/img/p4 veterinario.png" alt="proyecto veterinario">
+                            <div class="overlay">
+                                <h3>Pacientes clínica veterinaria</h3>
+                                <p>React + TS + Zustand + Tailwind</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="https://buscadorcocktails.netlify.app/" target="_blank">
+                            <img src="/img/p5 coktail.png" alt="proyecto cocktail">
+                            <div class="overlay">
+                                <h3>Buscador de bebidas</h3>
+                                <p>React</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="https://tiendaguitarrasreact.netlify.app/" target="_blank">
+                            <img src="/img/p6 guitarras.png" alt="proyecto guitarras">
+                            <div class="overlay">
+                                <h3>Tienda de guitarras</h3>
+                                <p>React + UseReducer</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="https://climaporciudades.netlify.app/" target="_blank">
+                            <img src="/img/p8 clima.png" alt="proyecto clima">
+                            <div class="overlay">
+                                <h3>Buscador clima</h3>
+                                <p>React + CSS Modules + API'S</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="https://tiendacamisetashtml.netlify.app/" target="_blank">
+                            <img src="/img/p9 camiseta.png" alt="proyecto camisetas">
+                            <div class="overlay">
+                                <h3>Tienda camisetas</h3>
+                                <p>HTML + CSS</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="https://medidorcalorias.netlify.app/" target="_blank">
+                            <img src="/img/p10 calorias.png" alt="proyecto camisetas">
+                            <div class="overlay">
+                                <h3>Calculadora calorías</h3>
+                                <p>React</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyecto">
+                        <a href="https://calculonotasypropina.netlify.app/" target="_blank">
+                            <img src="/img/p7 propina.png" alt="proyecto propinas">
+                            <div class="overlay">
+                                <h3>Tickets y propinas</h3>
+                                <p>React + Hooks</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+       </section> 
+
+       <!-- SECCION CONTACTO -->
+        <section id="contacto" class="contacto">
+            <div class="contenido-seccion">
+                <h2>Contacto</h2>
+                <div class="fila">
+                    <!-- Formulario -->
+                    <div class="col">
+                        <input type="text" placeholder="Tu nombre">
+                        <input type="text" placeholder="Numero de teléfono">
+                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Tema">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button>
+                            Enviar mensaje <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </div>
+                    <!-- Mapa -->
+                     <div class="col">
+                        <img src="/img/ubicacion.PNG" alt="Imagen ubicacion">
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    Lirio, 7. Esquivias(Toledo)
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-mobile-screen"></i>
+                                    Tlfno.: 675652556
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    antonioTorrejon81@gmail.com 
+                                </li>
+                            </ul>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+         <footer>
+            <a href="#inicio" class="arriba">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <p class="copyright">Todos los derechos reservados &copy;</p>
+         </footer>
+
+         <script src="script.js"></script>
+
+</body>
+</html>
